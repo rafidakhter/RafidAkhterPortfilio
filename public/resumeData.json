@@ -1,0 +1,142 @@
+{
+  "main": {
+    "name": "Rafid Akhter",
+    "occupation": "Mechanical engineer and Software developer",
+    "description": "I am  self-motivated and creative individual, interested in artificial intelligence and software engineering.Currently pursuing a career in this field and actively looking for software developer position. ",
+    "image": "propic.jpg",
+    "bio": "Hi, I am Rafid. I have graduated with a mechanical engineering degree from Carleton University in 2017 and I am a self-taught programmer. After graduation I have worked with Canadian Coast Guards, Environment Canada, and Natural Resources Canada. My interest in programming is a direct result of my innate need to find efficient ways of solving problems, that resulted in countless automation projects both in academia and in industry.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "rafida9@gmail.com",
+    "phone": "+1-613-864-3953",
+    "address": {
+      "street": "52 Henderson Ave",
+      "city": "Ottawa",
+      "state": "Ontario",
+      "zip": "K1N7P1"
+    },
+    "website": "https://rafidakhter.github.io/myWebsite/",
+    "resumedownload": "https://rafidakhter.github.io/myWebsite/",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/tim.baker.906",
+        "className": "fa fa-facebook"
+      },
+
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/rafid-akhter/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/rafidakhter/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/rafidakhter",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "With a mechanical engineering background, I enjoyed doing mechatronics projects. My first personal project was to make my drone follow me while I am rock climbing. This project helped me to understand how computer vision is used for object detection, navigation and control systems. To further broaden my knowledge in core concepts of computer science and software engineering, I have taken online courses and learned advanced topics like data structures and algorithms, network communication protocol and web development. I have uploaded some of my projects on my GitHub page at ",
+    "projectmessage": "With a mechanical engineering background, I enjoyed doing mechatronics projects. My first personal project was to make my drone follow me while I am rock climbing. This project helped me to understand how computer vision is used for object detection, navigation and control systems. To further broaden my knowledge in core concepts of computer science and software engineering, I have taken online courses and learned advanced topics like data structures and algorithms, network communication protocol and web development. I have uploaded some of my projects on my GitHub page at ",
+    "education": [
+      {
+        "school": "Carleton University",
+        "degree": "Bachelor of Enginnering , Mechanical -Co-op ",
+        "graduated": "April 2017",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/8/82/Carleton_University_shield.png"
+      }
+    ],
+    "work": [
+      {
+        "company": "Canadian Coast Guard",
+        "title": "Junior Mechanical Engineer",
+        "years": "May 2019 - January 2020",
+        "description": "I was part of the vessel procurement team and in charge of designing mechanical systems for a future nearshore marine vessel project. I designed HVAC, Hybrid Propulsion, Waste Water Treatment and Fire Protection systems for the vessel. I have also product life cycle cost analysis and automated mechanical systems' product selection process.",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/0/04/Canadian_Coast_Guard_crest.png"
+      },
+      {
+        "company": "Environment and Climate Change Canada",
+        "title": "Junior Mechanical Engineer",
+        "years": "January 2019 - May 2019",
+        "description": "Being part of the ERMS team, the division who are in charge of testing road vehicles and marine vessel's gas emissions, I was in charge of developing strategies for sampling and data analysis of Black Carbon emissions.",
+        "logo": "https://kootenayconservation.ca/wp-content/uploads/2020/04/Kootenay-Conservation-Program-Supporters-Environment-Canada.png"
+      },
+      {
+        "company": "Natural Resources Canada",
+        "title": "Air Emissions and Instrumentation Specialist",
+        "years": " November 2017 - Deceber 2018",
+        "description": "I assited in designing a Drone what would be used for analyzing Methane emissions from flare sites. Perfom project feasability studies based on statistical analysis.",
+        "logo": "https://www.policyschool.ca/wp-content/uploads/2017/04/Natural-Resources-Canada.png"
+      },
+      {
+        "company": "FlareNet Carleton",
+        "title": "Lab Assistant",
+        "years": " April 2017 - November 2017",
+        "description": "Assisted in lab set up. Automate data collection and data analysis from multiple sensors",
+        "logo": "https://www.flarenet.ca/wp-content/uploads/2016/10/flarenet@2x.png"
+      },
+      {
+        "company": "Best Theratonics",
+        "title": "Co-op Student",
+        "years": " May2014 - Dec 2015",
+        "description": "I was assisting in designing in creating and extracting Technetium 99m (Radioactive Isotope) from molybdenum 99, for medical imiging purposes",
+        "logo": "https://aorticconference.org/wp-content/uploads/2015/10/best-theratronics.png"
+      }
+    ],
+    "projects": [{ "name": "", "discripton": "", "link": "" }]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Smart Drone",
+
+        "description": "implimented Used Harcascade Object detection algorithm to detec a face on my drone. The drone is able to follow a person based on their face cordinates in the frame",
+        "program": ["Python", "OpenCV"],
+        "image": "original-thai-food.jpg",
+        "url": "https://github.com/rafidakhter/DroneFaceTracking",
+        "path": "images/portfolio/"
+      },
+      {
+        "title": "VR Air Paint",
+        "description": "Use image processing to allow users to draw in air",
+        "program": ["Python", "OpenCV"],
+        "image": "airpaint.jpg",
+        "url": "https://github.com/rafidakhter/VRPaint",
+        "path": "images/portfolio/"
+      },
+      {
+        "title": "Weather App",
+        "description": "Web app that to show user weather of specified location",
+        "program": ["JavaScript", "React", "HTML", "CSS"],
+        "image": "weather.jpg",
+        "url": "https://weather-app-e359b.web.app/",
+        "path": "images/portfolio/"
+      },
+      {
+        "title": "Hand Pose recognition",
+        "description": "An AI based hand recognition app, made using convolutional neural network model",
+        "program": ["Tensorflow", "JavaScript", "React", "HTML", "CSS"],
+        "image": "handpose.jpg",
+
+        "url": "https://handrecognition-686b6.web.app/"
+      }
+    ]
+  },
+  "photos": [
+    {
+      "src": "https://www.adobe.com/content/dam/cc/us/en/products/creativecloud/stock/stock-riverflow1-720x522.jpg.img.jpg",
+      "width": 4,
+      "height": 3
+    },
+    {
+      "src": "https://cdn.spacetelescope.org/archives/images/wallpaper2/heic2007a.jpg",
+      "width": 4,
+      "height": 3
+    }
+  ]
+}
