@@ -1,29 +1,38 @@
 import React, { Component } from "react";
+import { Grid } from "@material-ui/core";
 
 class MyResume extends Component {
   render() {
     if (this.props.data) {
       var education = this.props.data.education.map(function (education) {
         return (
-          <div key={education.school}>
-            <h3>{education.school}</h3>
-            <p className="info">
-              {education.degree} <span>&bull;</span>
-              <em className="date">{education.graduated}</em>
-            </p>
-            <p>{education.description}</p>
+          <div key={education.school} className="education">
+            <div>
+              {" "}
+              <h3>{education.school}</h3>
+              <p className="info">
+                {education.degree} <span>&bull;</span>
+                <em className="date">{education.graduated}</em>
+              </p>
+              <p>{education.description}</p>
+            </div>
+
+            <img src={education.logo} className="logo" alt="logo" />
           </div>
         );
       });
-      var work = this.props.data.work.map(function (work) {
+      var works = this.props.data.work.map(function (work) {
         return (
-          <div key={work.company}>
-            <h3>{work.company}</h3>
-            <p className="info">
-              {work.title}
-              <span>&bull;</span> <em className="date">{work.years}</em>
-            </p>
-            <p>{work.description}</p>
+          <div className="work">
+            <div>
+              <h3>{work.company}</h3>
+              <p className="info">
+                {work.title}
+                <span>&bull;</span> <em className="date">{work.years}</em>
+              </p>
+              <p className="workdiscripton">{work.description}</p>
+            </div>
+            <img src={work.logo} className="logo" alt="logo" />
           </div>
         );
       });
@@ -52,7 +61,10 @@ class MyResume extends Component {
             </h1>
           </div>
 
-          <div className="nine columns main-col">{work}</div>
+          <div className="nine columns main-col">
+            {" "}
+            <Grid container>{works}</Grid>
+          </div>
         </div>
       </section>
     );

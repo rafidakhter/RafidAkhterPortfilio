@@ -32,18 +32,18 @@ export default function ImgMediaCard(props) {
             {props.title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            {props.description}
+            <p>{props.description}</p>
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      <CardActions className="cardButton">
         <Button
           href={props.url}
           variant="contained"
           color="primary"
           disableElevation
         >
-          Learn More
+          <h4> View Project</h4>
         </Button>
       </CardActions>
     </Card>

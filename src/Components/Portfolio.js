@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Card from "./ImgMediaCard";
 import { Grid } from "@material-ui/core";
-import Video from "./Videoplayer";
 
 class Portfolio extends Component {
   render() {
@@ -30,10 +29,7 @@ class Portfolio extends Component {
           id="portfolio-wrapper"
           className="bgrid-quarters s-bgrid-thirds cf"
         >
-          <Grid container>
-            {projects}
-            <Video />
-          </Grid>
+          <Grid container>{projects}</Grid>
         </div>
       </section>
     );

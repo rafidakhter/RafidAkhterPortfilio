@@ -40,6 +40,9 @@ header {
   -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-attachment: fixed;
 }
 
 /* vertically center banner section */
@@ -303,6 +306,7 @@ ul#nav li.current a {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
+  display: flex;
 }
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
@@ -317,6 +321,14 @@ ul#nav li.current a {
 #resume .date {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
+}
+
+#resume .logo {
+  margin-left: 20px;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
 }
 
 /*----------------------------------------------*/
@@ -460,7 +472,7 @@ ul#nav li.current a {
   padding-bottom: 60px;
 }
 #portfolio h1 {
-  font: 70px/60px "opensans-semibold", sans-serif;
+  font: 70px/60px "opensans-semibold", sans-serif, bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
@@ -469,20 +481,26 @@ ul#nav li.current a {
 }
 
 #portfolio h2 {
-  font: 20px/24px "opensans-semibold", sans-serif;
+  font: 30px/24px "opensans-semibold", sans-serif, bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 48px;
+  color: #000000;
+}
+#portfolio p {
+  font: 15px/24px "opensans-semibold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
   color: #95a3a3;
 }
-#portfolio p {
-  font: 10px/24px "opensans-semibold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-bottom: 48px;
-  color: #95a3a3;
+
+#portfolio .cardButton {
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -549,13 +567,13 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
+  background: #1f1f1f url(../images/img-13.jpg) no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;
 
   position: relative;
-  min-height: 200px;
+  min-height: 1000px;
   width: 100%;
   overflow: hidden;
 }

@@ -5,7 +5,7 @@
     "description": "I am  self-motivated and creative individual, interested in artificial intelligence and software engineering.Currently pursuing a career in this field and actively looking for software developer position. ",
     "image": "propic.jpg",
     "bio": "Hi, I am Rafid. I have graduated with a mechanical engineering degree from Carleton University in 2017 and I am a self-taught programmer. After graduation I have worked with Canadian Coast Guards, Environment Canada, and Natural Resources Canada. My interest in programming is a direct result of my innate need to find efficient ways of solving problems, that resulted in countless automation projects both in academia and in industry.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage": "If you would like to get in contact please feel free send me an email with the form below or .",
     "email": "rafida9@gmail.com",
     "phone": "+1-613-864-3953",
     "address": {
@@ -15,7 +15,7 @@
       "zip": "K1N7P1"
     },
     "website": "https://rafidakhter.github.io/myWebsite/",
-    "resumedownload": "https://rafidakhter.github.io/myWebsite/",
+    "resumedownload": "./Rafid Akhter-Resume.pdf",
     "social": [
       {
         "name": "facebook",
@@ -87,31 +87,31 @@
         "description": "I was assisting in designing in creating and extracting Technetium 99m (Radioactive Isotope) from molybdenum 99, for medical imiging purposes",
         "logo": "https://aorticconference.org/wp-content/uploads/2015/10/best-theratronics.png"
       }
-    ],
-    "projects": [{ "name": "", "discripton": "", "link": "" }]
+    ]
   },
   "portfolio": {
     "projects": [
       {
         "title": "Smart Drone",
 
-        "description": "implimented Used Harcascade Object detection algorithm to detec a face on my drone. The drone is able to follow a person based on their face cordinates in the frame",
+        "description": "A Tello Drone is programed to detect a human subject and follow that person by adjusting its pitch yaw and roll. A PID controller is implimented to contorll the drone. Multiple test has been conducted to find the optimum kp,kd and ki values ",
         "program": ["Python", "OpenCV"],
-        "image": "original-thai-food.jpg",
+        "image": "smartdrone.jpg",
         "url": "https://github.com/rafidakhter/DroneFaceTracking",
         "path": "images/portfolio/"
       },
       {
         "title": "VR Air Paint",
-        "description": "Use image processing to allow users to draw in air",
+        "description": "This python aplication allows user to draw objects in ait. The application is using open cv's image processing library to find HSV isolation model to isolate green objects in the frame as a contour. The cordinated of the contour is used to draw dots along the path of the green object making the illustration that the user is drawing in air",
+        "futureWork": "Make a mobile/web app add on for zoom/googe hangout that will allow better communication in video conference",
         "program": ["Python", "OpenCV"],
-        "image": "airpaint.jpg",
+        "image": "vrairpaint.jpg",
         "url": "https://github.com/rafidakhter/VRPaint",
         "path": "images/portfolio/"
       },
       {
         "title": "Weather App",
-        "description": "Web app that to show user weather of specified location",
+        "description": "This web app allows user to see weather details of desired location. This app is built using React, Bootstrap and Javascript ",
         "program": ["JavaScript", "React", "HTML", "CSS"],
         "image": "weather.jpg",
         "url": "https://weather-app-e359b.web.app/",
@@ -125,18 +125,94 @@
 
         "url": "https://handrecognition-686b6.web.app/"
       }
+    ],
+
+    "photos": [
+      {
+        "src": "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+        "width": 4,
+        "height": 3
+      },
+      {
+        "src": "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "src": "https://source.unsplash.com/qDkso9nvCg0/600x799",
+        "width": 3,
+        "height": 4
+      },
+      {
+        "src": "https://source.unsplash.com/iecJiKe_RNg/600x799",
+        "width": 3,
+        "height": 4
+      },
+      {
+        "src": "https://source.unsplash.com/epcsn8Ed8kY/600x799",
+        "width": 3,
+        "height": 4
+      },
+      {
+        "src": "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+        "width": 4,
+        "height": 3
+      },
+      {
+        "src": "https://source.unsplash.com/zh7GEuORbUw/600x799",
+        "width": 3,
+        "height": 4
+      },
+      {
+        "src": "https://source.unsplash.com/PpOHJezOalU/800x599",
+        "width": 4,
+        "height": 3
+      },
+      {
+        "src": "https://source.unsplash.com/I1ASdgphUH4/800x599",
+        "width": 4,
+        "height": 3
+      },
+      {
+        "src": "https://source.unsplash.com/XiDA78wAZVw/600x799",
+        "width": 3,
+        "height": 4
+      },
+      {
+        "src": "https://source.unsplash.com/x8xJpClTvR0/800x599",
+        "width": 4,
+        "height": 3
+      },
+      {
+        "src": "https://source.unsplash.com/u9cG4cuJ6bU/4927x1000",
+        "width": 4927,
+        "height": 1000
+      },
+      {
+        "src": "https://source.unsplash.com/qGQNmBE7mYw/800x599",
+        "width": 4,
+        "height": 3
+      },
+      {
+        "src": "https://source.unsplash.com/NuO6iTBkHxE/800x599",
+        "width": 4,
+        "height": 3
+      },
+      {
+        "src": "https://source.unsplash.com/pF1ug8ysTtY/600x400",
+        "width": 4,
+        "height": 3
+      },
+      {
+        "src": "https://source.unsplash.com/A-fubu9QJxE/800x533",
+        "width": 4,
+        "height": 3
+      },
+      {
+        "src": "https://source.unsplash.com/5P91SF0zNsI/740x494",
+        "width": 4,
+        "height": 3
+      }
     ]
-  },
-  "photos": [
-    {
-      "src": "https://www.adobe.com/content/dam/cc/us/en/products/creativecloud/stock/stock-riverflow1-720x522.jpg.img.jpg",
-      "width": 4,
-      "height": 3
-    },
-    {
-      "src": "https://cdn.spacetelescope.org/archives/images/wallpaper2/heic2007a.jpg",
-      "width": 4,
-      "height": 3
-    }
-  ]
+  }
 }
