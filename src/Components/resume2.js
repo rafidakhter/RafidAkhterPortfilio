@@ -6,13 +6,18 @@ class Resume2 extends Component {
     if (this.props.data) {
       var education = this.props.data.education.map(function (education) {
         return (
-          <div key={education.school}>
-            <h3>{education.school}</h3>
-            <p className="info">
-              {education.degree} <span>&bull;</span>
-              <em className="date">{education.graduated}</em>
-            </p>
-            <p>{education.description}</p>
+          <div key={education.school} className="education">
+            <div>
+              {" "}
+              <h3>{education.school}</h3>
+              <p className="info">
+                {education.degree} <span>&bull;</span>
+                <em className="date">{education.graduated}</em>
+              </p>
+              <p>{education.description}</p>
+            </div>
+
+            <img src={education.logo} className="logo" alt="logo" />
           </div>
         );
       });
@@ -22,7 +27,8 @@ class Resume2 extends Component {
             title={work.title}
             description={work.description}
             company={work.company}
-            image={work.image}
+            image={work.logo}
+            years={work.years}
           />
         );
       });

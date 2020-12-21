@@ -32,7 +32,7 @@ class App extends Component {
         this.setState({ resumeData: data });
       }.bind(this),
       error: function (xhr, status, err) {
-        console.log(err);
+        console.log("couldn't load JSON file");
         alert(err);
       },
     });
@@ -47,7 +47,7 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
-        <MyResume data={this.state.resumeData.resume} />
+        <Resume2 data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
         <Testimonials data={this.state.resumeData.testimonials} />
         <Contact data={this.state.resumeData.main} />

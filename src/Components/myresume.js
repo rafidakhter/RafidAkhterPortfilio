@@ -40,7 +40,7 @@ class MyResume extends Component {
 
     return (
       <section id="resume">
-        <div className="row education">
+        <div className="row">
           <div className="three columns header-col">
             <h1>
               <span>Education</span>

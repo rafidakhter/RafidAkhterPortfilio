@@ -27,15 +27,19 @@ export default function SimpleAccordion(props) {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className="A_title">
-            {props.company}
-            {props.title}
+          <Typography className="work">
+            <div>
+              {" "}
+              <h4>{props.company}</h4>
+              <p className="info">{props.title}</p>
+              <p className="date">{props.years}</p>
+            </div>
+            <img className="logo" alt="logo" src={props.image} />
           </Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className="work">
           <Typography>
-            {props.description}
-            <img src={props.image} />
+            <p className="info">{props.description}</p>
           </Typography>
         </AccordionDetails>
       </Accordion>

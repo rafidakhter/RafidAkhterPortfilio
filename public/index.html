@@ -49,4 +49,27 @@
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
   </body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyBn578jlPifd0rIFt1reZ23cuX0wpHeUso",
+      authDomain: "rafidakhter-portfolio.firebaseapp.com",
+      projectId: "rafidakhter-portfolio",
+      storageBucket: "rafidakhter-portfolio.appspot.com",
+      messagingSenderId: "373245239229",
+      appId: "1:373245239229:web:9105fe30cb83a99f0fbcd4",
+      measurementId: "G-WR7PQLDVQM",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </html>
