@@ -2,24 +2,22 @@
   "main": {
     "name": "Rafid Akhter",
     "occupation": "Mechanical engineer and Software developer",
-    "description": "I am  self-motivated and creative individual, interested in artificial intelligence and software engineering.Currently pursuing a career in this field and actively looking for software developer position. ",
+    "description": "I am  self-motivated and creative individual, interested in artificial intelligence and software engineering. Currently pursuing a career in this field and actively looking for software developer position. ",
     "image": "propic.jpg",
     "bio": "Hi, I am Rafid. I have graduated with a mechanical engineering degree from Carleton University in 2017 and I am a self-taught programmer. After graduation I have worked with Canadian Coast Guards, Environment Canada, and Natural Resources Canada. My interest in programming is a direct result of my innate need to find efficient ways of solving problems, that resulted in countless automation projects both in academia and in industry.",
     "contactmessage": "If you would like to get in contact please feel free send me an email with the form below or .",
     "email": "rafida9@gmail.com",
     "phone": "+1-613-864-3953",
     "address": {
-      "street": "52 Henderson Ave",
       "city": "Ottawa",
-      "state": "Ontario",
-      "zip": "K1N7P1"
+      "state": "Ontario"
     },
     "website": "https://rafidakhter.github.io/myWebsite/",
     "resumedownload": "./Rafid Akhter Resume.pdf",
     "social": [
       {
         "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
+        "url": "https://www.facebook.com/md.rafid.akhter/",
         "className": "fa fa-facebook"
       },
 
@@ -57,40 +55,83 @@
         "title": "Junior Mechanical Engineer",
         "years": "May 2019 - January 2020",
         "description": "I was part of the vessel procurement team and in charge of designing mechanical systems for a future nearshore marine vessel project. I designed HVAC, Hybrid Propulsion, Waste Water Treatment and Fire Protection systems for the vessel. I have also product life cycle cost analysis and automated mechanical systems' product selection process.",
+        "detials": [
+          "Proposed a black and grey water distribution and treatment system which complies to vessel pollution and dangerous chemical regulations, Canada shipping Act",
+          "Designed power generation system for a hybrid propulsion system based on electric and propulsion operation loads and created AutoCAD models of engine exhaust silencer and NOx reduction system",
+          "Designed a fixed fire fighting system using BV ship building codes and Transport Canada’s vessel construction fire protection, detection, and extinction regulations"
+        ],
         "logo": "https://upload.wikimedia.org/wikipedia/en/0/04/Canadian_Coast_Guard_crest.png"
       },
       {
         "company": "Environment and Climate Change Canada",
         "title": "Junior Mechanical Engineer",
         "years": "January 2019 - May 2019",
+        "details": [
+          "Configured in-house soot generator to mimic vehicular BC emissions for instrument calibration",
+          "Established standardized BC measurement method(s) for transportation-generated emissions",
+          "Evaluated the effectiveness and performance of BC control strategies to reduce BC emissions from on road vehicles"
+        ],
         "description": "Being part of the ERMS team, the division who are in charge of testing road vehicles and marine vessel's gas emissions, I was in charge of developing strategies for sampling and data analysis of Black Carbon emissions.",
         "logo": "https://kootenayconservation.ca/wp-content/uploads/2020/04/Kootenay-Conservation-Program-Supporters-Environment-Canada.png"
       },
       {
         "company": "Natural Resources Canada",
         "title": "Air Emissions and Instrumentation Specialist",
-        "years": " November 2017 - Deceber 2018",
+        "years": "November 2017 - Deceber 2018",
         "description": "I assited in designing a Drone what would be used for analyzing Methane emissions from flare sites. Perfom project feasability studies based on statistical analysis.",
+        "details": [
+          "Integrates wind vector and gas concentration measurement system in an Unmanned Arial Vehicle for measuring methane flux",
+          " Applied Monte Carlo analysis to horizontal wind speed sensor readings to the simulated total expected uncertainty in designed UAV system",
+          " Wrote technical documents, SOP for operating and calibrating PASS-3 and OCEC analyzer"
+        ],
         "logo": "https://www.policyschool.ca/wp-content/uploads/2017/04/Natural-Resources-Canada.png"
       },
       {
         "company": "FlareNet Carleton",
         "title": "Lab Assistant",
-        "years": " April 2017 - November 2017",
+        "years": "April 2017 - November 2017",
+        "detials": [
+          "Calibrated and troubleshoot RS-232/485 digital communication mass flow controllers (MFC)",
+          "Wrote LabVIEW code to get instrument readings",
+          " Produced SOP for MFC calibration and train/supervise other project members on using the MFC"
+        ],
         "description": "Assisted in lab set up. Automate data collection and data analysis from multiple sensors",
         "logo": "https://www.flarenet.ca/wp-content/uploads/2016/10/flarenet@2x.png"
       },
       {
         "company": "Best Theratonics",
         "title": "Co-op Student",
-        "years": " May2014 - Dec 2015",
+        "years": "May2014 - Dec 2015",
         "description": "I was assisting in designing in creating and extracting Technetium 99m (Radioactive Isotope) from molybdenum 99, for medical imiging purposes",
+        "details": [
+          "Made SolidWorks CAD model of checmical extraction process",
+          "Propose alternate product protuction method which decreased the production time by 70%",
+          "Wrote PLC code to control valves for fluid transfer"
+        ],
         "logo": "https://aorticconference.org/wp-content/uploads/2015/10/best-theratronics.png"
       }
     ]
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Ecomerce Website",
+        "description": "Designed and buit an E-comerce website. The back end was developed using Node.js,Express,Redux and MySQL. The front end was designed using React,Javascript,Bootsrtp.",
+        "futurework": "Impliment 3rd party authentication service such as google and facebook. Impliment email notification services and product delivery status",
+        "program": [
+          "NodeJs",
+          "express",
+          "Javacsript",
+          "HTML",
+          "CSS",
+          "React",
+          "material-ui",
+          "Bootstrap"
+        ],
+        "image": "handpose.jpg",
+
+        "url": "https://www.notion.so/rafidakhter/E-commerce-Project-d5c0eae242724cb2971acb0a3f2cadc7"
+      },
       {
         "title": "Smart Drone",
 
@@ -124,94 +165,6 @@
         "image": "handpose.jpg",
 
         "url": "https://handrecognition-686b6.web.app/"
-      }
-    ],
-
-    "photos": [
-      {
-        "src": "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-        "width": 4,
-        "height": 3
-      },
-      {
-        "src": "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-        "width": 1,
-        "height": 1
-      },
-      {
-        "src": "https://source.unsplash.com/qDkso9nvCg0/600x799",
-        "width": 3,
-        "height": 4
-      },
-      {
-        "src": "https://source.unsplash.com/iecJiKe_RNg/600x799",
-        "width": 3,
-        "height": 4
-      },
-      {
-        "src": "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-        "width": 3,
-        "height": 4
-      },
-      {
-        "src": "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-        "width": 4,
-        "height": 3
-      },
-      {
-        "src": "https://source.unsplash.com/zh7GEuORbUw/600x799",
-        "width": 3,
-        "height": 4
-      },
-      {
-        "src": "https://source.unsplash.com/PpOHJezOalU/800x599",
-        "width": 4,
-        "height": 3
-      },
-      {
-        "src": "https://source.unsplash.com/I1ASdgphUH4/800x599",
-        "width": 4,
-        "height": 3
-      },
-      {
-        "src": "https://source.unsplash.com/XiDA78wAZVw/600x799",
-        "width": 3,
-        "height": 4
-      },
-      {
-        "src": "https://source.unsplash.com/x8xJpClTvR0/800x599",
-        "width": 4,
-        "height": 3
-      },
-      {
-        "src": "https://source.unsplash.com/u9cG4cuJ6bU/4927x1000",
-        "width": 4927,
-        "height": 1000
-      },
-      {
-        "src": "https://source.unsplash.com/qGQNmBE7mYw/800x599",
-        "width": 4,
-        "height": 3
-      },
-      {
-        "src": "https://source.unsplash.com/NuO6iTBkHxE/800x599",
-        "width": 4,
-        "height": 3
-      },
-      {
-        "src": "https://source.unsplash.com/pF1ug8ysTtY/600x400",
-        "width": 4,
-        "height": 3
-      },
-      {
-        "src": "https://source.unsplash.com/A-fubu9QJxE/800x533",
-        "width": 4,
-        "height": 3
-      },
-      {
-        "src": "https://source.unsplash.com/5P91SF0zNsI/740x494",
-        "width": 4,
-        "height": 3
       }
     ]
   }

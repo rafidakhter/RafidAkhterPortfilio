@@ -1,7 +1,22 @@
 {
-  "main.css": "static/css/main.d41d8cd9.css",
-  "main.css.map": "static/css/main.d41d8cd9.css.map",
-  "main.js": "static/js/main.35512fa2.js",
-  "main.js.map": "static/js/main.35512fa2.js.map",
-  "static\\media\\propic.jpg": "static/media/propic.1fd45ff7.jpg"
+  "files": {
+    "main.css": "/RafidAkhterPortfilio/static/css/main.bab0b925.chunk.css",
+    "main.js": "/RafidAkhterPortfilio/static/js/main.fa4e11d0.chunk.js",
+    "main.js.map": "/RafidAkhterPortfilio/static/js/main.fa4e11d0.chunk.js.map",
+    "runtime-main.js": "/RafidAkhterPortfilio/static/js/runtime-main.80a375a4.js",
+    "runtime-main.js.map": "/RafidAkhterPortfilio/static/js/runtime-main.80a375a4.js.map",
+    "static/js/2.03a7d407.chunk.js": "/RafidAkhterPortfilio/static/js/2.03a7d407.chunk.js",
+    "static/js/2.03a7d407.chunk.js.map": "/RafidAkhterPortfilio/static/js/2.03a7d407.chunk.js.map",
+    "index.html": "/RafidAkhterPortfilio/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/RafidAkhterPortfilio/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.03a7d407.chunk.js.LICENSE.txt": "/RafidAkhterPortfilio/static/js/2.03a7d407.chunk.js.LICENSE.txt",
+    "static/media/RafidAkhter_Resume.713258dd.pdf": "/RafidAkhterPortfilio/static/media/RafidAkhter_Resume.713258dd.pdf",
+    "static/media/propic.ed665b7c.jpg": "/RafidAkhterPortfilio/static/media/propic.ed665b7c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80a375a4.js",
+    "static/js/2.03a7d407.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.fa4e11d0.chunk.js"
+  ]
 }
